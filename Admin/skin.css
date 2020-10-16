@@ -1,0 +1,98 @@
+html{
+    font-family: 'Google Sans',sans-serif;
+    letter-spacing: 1.5px;
+    color: black;
+    /*background-image: linear-gradient(180deg,#8725F5,#6d00f5);*/
+    background-color: #1e1f20;
+    /*background-image: linear-gradient(45deg,#5B6467,#a9a9a9,#8B939A,#a9a9a9,#5b6467);*/
+    /*background-image: linear-gradient(45deg,rgb(100, 46, 201),#8725F5);*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height:100%;
+}
+
+body{
+	height:100%;
+}
+
+#cont{
+    background-color: #2d2e30;
+    padding:3.5rem;
+    width:90%;
+    height:78vh;
+    margin:auto auto;
+    display:grid;
+    grid-template-rows: 7% 93%;
+}
+
+#status-bar{
+    text-align: right;
+}
+
+#sub{
+    border-top:2px solid white;
+    color:#f2f2f2;
+    padding:3rem;
+}
+
+#wait{
+    display:none;
+}
+
+#head{
+    margin-top:0;
+}
+
+input{
+    color:#1e1f20;
+    width:15rem;
+    height:2rem;
+    background-color:#f2f2f2;
+    border:1px solid transparent;
+    border-bottom:3px solid black;
+    text-align: center;
+    font-weight: bolder;
+    font-size:1.2rem;
+}
+
+button{
+    color:white;
+    margin-top:1rem;
+    padding:0.2rem 4rem;
+    border:2px solid black;
+    background-color: #1e1f20;
+    font-size:1.2rem;
+    font-weight: bolder;
+    box-shadow: 5px 5px 1px 0.5px #222020; 
+}
+
+.err{
+    color:yellow;
+    display:none;
+}
+
+button:active { 
+    transform: scale(0.95);
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 5px 5px 1px 0.5px #222020; 
+    /* Lowering the shadow */ 
+}
+
+button:focus{
+    outline:none;
+} 
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color:#1e1f20;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:#1e1f20;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color:#1e1f20;
+}
